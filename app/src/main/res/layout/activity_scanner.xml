@@ -1,24 +1,12 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.sommayahsoliman.instacycle.ScannerActivity">
-
-    <TextView android:text="@string/hello_world_scanner" android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scan Item"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView"
-        android:layout_marginTop="228dp"
-        android:onClick="onScanClick" />
+    android:orientation="vertical"
+    android:background="@color/darkgreen"
+    tools:context="com.fll.sommayahsoliman.instacycle.ScannerActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -28,6 +16,37 @@
         android:layout_alignTop="@+id/button"
         android:layout_alignBottom="@+id/button"
         android:layout_alignParentEnd="true"
+        android:layout_gravity="center_horizontal"
         android:layout_toEndOf="@+id/textView" />
 
-</RelativeLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Item"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+
+        android:onClick="onScanClick" />
+
+
+
+</LinearLayout>

@@ -8,16 +8,16 @@
     android:layout_height="match_parent"
     android:keepScreenOn="true">
 
-  <com.example.sommayahsoliman.instacycle.camera.CameraSourcePreview
+  <com.fll.sommayahsoliman.instacycle.camera.CameraSourcePreview
       android:id="@+id/preview"
       android:layout_width="match_parent"
       android:layout_height="match_parent">
 
-    <com.example.sommayahsoliman.instacycle.camera.GraphicOverlay
+    <com.fll.sommayahsoliman.instacycle.camera.GraphicOverlay
         android:id="@+id/graphicOverlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-  </com.example.sommayahsoliman.instacycle.camera.CameraSourcePreview>
+  </com.fll.sommayahsoliman.instacycle.camera.CameraSourcePreview>
 
 </LinearLayout>
