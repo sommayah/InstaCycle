@@ -86,6 +86,8 @@
     <string name="could_not_start_camera">Could not start camera source.</string>
     <string name="isPortraitMode_false">isPortraitMode returning false by default</string>
     <string name="empty_list_view">There are no books to show</string>
+    <string name="match_found"> Matching Item Found</string>
+    <string name="no_match_found">No Matching Item Found</string>
 
 
 </resources>

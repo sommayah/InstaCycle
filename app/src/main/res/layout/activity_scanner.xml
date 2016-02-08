@@ -13,27 +13,33 @@
         android:layout_height="wrap_content"
         android:text="Barcode appears here"
         android:id="@+id/textViewScan"
+        android:textColor="@color/yellow"
         android:layout_alignTop="@+id/button"
         android:layout_alignBottom="@+id/button"
         android:layout_alignParentEnd="true"
         android:layout_gravity="center_horizontal"
-        android:layout_toEndOf="@+id/textView" />
+        android:layout_toEndOf="@+id/textView"
+        android:textSize="36dp"
+        android:typeface="sans" />
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="match_parent"
+        android:layout_width="322dp"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp"
         android:background="@color/white"
-        android:layout_gravity="center_horizontal">
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/itemLayout">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="New Text"
             android:id="@+id/textView"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center"
+            android:typeface="sans"
+            android:textSize="36sp" />
     </LinearLayout>
 
 
