@@ -11,6 +11,3 @@ It has scanning functionality that scans products and detects if they have recyc
 
 All other tabs are just demos, just images.
 
-## Link on Google store
-
-The application is available on google store [here](https://play.google.com/apps/testing/com.fll.sommayahsoliman.instacycle)
